@@ -2079,6 +2079,7 @@ id fixed
 id forever
 id fotoProfile1
 id frame_layout
+id frame_layout2
 id ghost_view
 id give_us_a_review_landmine_button
 id give_us_a_review_landmine_main_layout
@@ -2244,6 +2245,7 @@ id rect
 id right
 id right_icon
 id right_side
+id riwayat_id
 id rlImg
 id rlTop
 id rl_img
@@ -2464,6 +2466,7 @@ layout activity_pendukung
 layout activity_profile
 layout activity_register
 layout activity_riwayat_peg
+layout activity_riwayat_peg_peg
 layout activity_rombel
 layout activity_skp
 layout activity_tambah_anak

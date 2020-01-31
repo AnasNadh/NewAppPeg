@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:2:1-48:12
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:2:1-49:12
 MERGED from [androidx.navigation:navigation-ui:2.0.0] C:\Users\SMKN PRIGEN\.gradle\caches\transforms-2\files-2.1\59ba19fa9412798f2cf5ae52b63808f3\jetified-navigation-ui-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\SMKN PRIGEN\.gradle\caches\transforms-2\files-2.1\9ee5da6fca20f6f07dce6c73fc4ca33a\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\SMKN PRIGEN\.gradle\caches\transforms-2\files-2.1\f5bdf8930f5b0dade80802408310dda6\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -53,45 +53,45 @@ MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\SMKN PRIGEN\.g
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\SMKN PRIGEN\.gradle\caches\transforms-2\files-2.1\1bd2f6a321d0549948d7f1edb5f036d6\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\SMKN PRIGEN\.gradle\caches\transforms-2\files-2.1\55566c395264c409f125230efea7fd76\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\SMKN PRIGEN\.gradle\caches\transforms-2\files-2.1\f031147607d3aeb238f176a00d5e308c\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:2:1-49:12
 	package
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:3:5-34
-		INJECTED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:2:1-48:12
-		INJECTED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:2:1-49:12
+		INJECTED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:2:1-48:12
-		INJECTED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:2:1-49:12
+		INJECTED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:5:5-67
 MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\SMKN PRIGEN\.gradle\caches\transforms-2\files-2.1\1d7a32e5c2e49b1084178cd324efbd44\jetified-library-1.1.5\AndroidManifest.xml:11:5-67
 MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\SMKN PRIGEN\.gradle\caches\transforms-2\files-2.1\1d7a32e5c2e49b1084178cd324efbd44\jetified-library-1.1.5\AndroidManifest.xml:11:5-67
 	android:name
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:6:5-79
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:6:5-79
 	android:name
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:6:22-76
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:6:22-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:7:5-80
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:7:5-80
 	android:name
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:7:22-77
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:7:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:8:5-81
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:8:5-81
 MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\SMKN PRIGEN\.gradle\caches\transforms-2\files-2.1\1d7a32e5c2e49b1084178cd324efbd44\jetified-library-1.1.5\AndroidManifest.xml:12:5-81
 MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\SMKN PRIGEN\.gradle\caches\transforms-2\files-2.1\1d7a32e5c2e49b1084178cd324efbd44\jetified-library-1.1.5\AndroidManifest.xml:12:5-81
 	android:name
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:8:22-78
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:8:22-78
 application
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:10:5-46:19
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:10:5-47:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\SMKN PRIGEN\.gradle\caches\transforms-2\files-2.1\9ee5da6fca20f6f07dce6c73fc4ca33a\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\SMKN PRIGEN\.gradle\caches\transforms-2\files-2.1\9ee5da6fca20f6f07dce6c73fc4ca33a\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\SMKN PRIGEN\.gradle\caches\transforms-2\files-2.1\c1763829f79bc3811543d2bb9a22b866\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -115,119 +115,123 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\SMKN PRIGEN\.g
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\SMKN PRIGEN\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:14:9-41
 	android:roundIcon
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:15:9-54
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:15:9-54
 	android:icon
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:13:9-43
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:13:9-37
 	android:allowBackup
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:17:9-40
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:17:9-40
 	android:usesCleartextTraffic
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:18:9-44
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:18:9-44
 	android:name
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:11:9-50
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:11:9-50
+activity#id.masnadh.myapppeg.activities.RiwayatPegPegActivity
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:19:9-79
+	android:name
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:19:19-67
 activity#id.masnadh.myapppeg.activities.ProfileActivity
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:19:9-73
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:20:9-64
 	android:name
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:19:19-61
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:20:19-61
 activity#id.masnadh.myapppeg.tambahHapusData.TambahAnakActivity
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:20:9-72
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:21:9-72
 	android:name
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:20:19-69
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:21:19-69
 activity#id.masnadh.myapppeg.tambahHapusData.HapusPasutriActivity
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:21:9-74
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:22:9-74
 	android:name
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:21:19-71
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:22:19-71
 activity#id.masnadh.myapppeg.activities.PasutriActivity
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:22:9-64
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:23:9-64
 	android:name
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:22:19-61
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:23:19-61
 activity#id.masnadh.myapppeg.tambahHapusData.TambahPasutriActivity
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:23:9-75
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:24:9-75
 	android:name
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:23:19-72
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:24:19-72
 activity#id.masnadh.myapppeg.activities.DeleteActivity
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:24:9-63
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:25:9-63
 	android:name
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:24:19-60
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:25:19-60
 activity#id.masnadh.myapppeg.activities.TambahPendidikanActivity
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:25:9-73
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:26:9-73
 	android:name
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:25:19-70
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:26:19-70
 activity#id.masnadh.myapppeg.adminActivies.AdminActivity
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:26:9-65
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:27:9-65
 	android:name
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:26:19-62
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:27:19-62
 activity#id.masnadh.myapppeg.ListActivity
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:27:9-50
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:28:9-50
 	android:name
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:27:19-47
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:28:19-47
 activity#id.masnadh.myapppeg.activities.TestActivity
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:28:9-61
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:29:9-61
 	android:name
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:28:19-58
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:29:19-58
 activity#id.masnadh.myapppeg.activities.DataActivity
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:29:9-61
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:30:9-61
 	android:name
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:29:19-58
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:30:19-58
 activity#id.masnadh.myapppeg.activities.AbsenActivity
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:30:9-62
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:31:9-62
 	android:name
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:30:19-59
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:31:19-59
 activity#id.masnadh.myapppeg.activities.RombelActivity
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:31:9-63
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:32:9-63
 	android:name
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:31:19-60
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:32:19-60
 activity#id.masnadh.myapppeg.activities.SKPActivity
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:32:9-60
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:33:9-60
 	android:name
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:32:19-57
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:33:19-57
 activity#id.masnadh.myapppeg.activities.PendidikanActivity
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:33:9-67
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:34:9-67
 	android:name
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:33:19-64
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:34:19-64
 activity#id.masnadh.myapppeg.activities.RiwayatPegActivity
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:34:9-67
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:35:9-67
 	android:name
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:34:19-64
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:35:19-64
 activity#id.masnadh.myapppeg.activities.PendukungActivity
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:35:9-66
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:36:9-66
 	android:name
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:35:19-63
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:36:19-63
 activity#id.masnadh.myapppeg.activities.UbahActivity
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:36:9-61
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:37:9-61
 	android:name
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:36:19-58
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:37:19-58
 activity#id.masnadh.myapppeg.activities.RegisterActivity
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:37:9-65
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:38:9-65
 	android:name
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:37:19-62
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:38:19-62
 activity#id.masnadh.myapppeg.MainActivity
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:38:9-50
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:39:9-50
 	android:name
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:38:19-47
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:39:19-47
 activity#id.masnadh.myapppeg.activities.LoginActivity
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:39:9-45:20
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:40:9-46:20
 	android:name
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:39:19-59
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:40:19-59
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:40:13-44:29
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:41:13-45:29
 action#android.intent.action.MAIN
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:41:17-69
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:42:17-69
 	android:name
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:41:25-66
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:42:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:43:17-77
+ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:44:17-77
 	android:name
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml:43:27-74
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml:44:27-74
 uses-sdk
-INJECTED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml
-INJECTED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml
+INJECTED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml
+INJECTED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml
 MERGED from [androidx.navigation:navigation-ui:2.0.0] C:\Users\SMKN PRIGEN\.gradle\caches\transforms-2\files-2.1\59ba19fa9412798f2cf5ae52b63808f3\jetified-navigation-ui-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-ui:2.0.0] C:\Users\SMKN PRIGEN\.gradle\caches\transforms-2\files-2.1\59ba19fa9412798f2cf5ae52b63808f3\jetified-navigation-ui-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\SMKN PRIGEN\.gradle\caches\transforms-2\files-2.1\9ee5da6fca20f6f07dce6c73fc4ca33a\material-1.0.0\AndroidManifest.xml:20:5-44
@@ -326,16 +330,16 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\SMKN PRIGEN\
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\SMKN PRIGEN\.gradle\caches\transforms-2\files-2.1\55566c395264c409f125230efea7fd76\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\SMKN PRIGEN\.gradle\caches\transforms-2\files-2.1\f031147607d3aeb238f176a00d5e308c\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\SMKN PRIGEN\.gradle\caches\transforms-2\files-2.1\f031147607d3aeb238f176a00d5e308c\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-INJECTED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml
-INJECTED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml
+INJECTED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml
+INJECTED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml
-		ADDED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Kuliah\App\Neapp\Appp-master\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml
+		ADDED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Github\NewAppPeg\app\src\main\AndroidManifest.xml
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\SMKN PRIGEN\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
 	android:authorities
