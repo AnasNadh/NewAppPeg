@@ -2306,10 +2306,13 @@ id t
 id tabMode
 id tab_anak
 id tab_jab
+id tab_jab2
 id tab_layout
 id tab_layout2
+id tab_layout_peg
 id tab_ortu
 id tab_pangkat
+id tab_pangkat2
 id tab_pasutri
 id tab_personal
 id tabelProfile
@@ -2393,6 +2396,7 @@ id useLogo
 id view_offset_helper
 id view_pager
 id view_pager2
+id view_pager_peg
 id visible
 id wargaUser
 id withText

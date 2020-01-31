@@ -16,8 +16,9 @@ public class Pager2 extends FragmentStatePagerAdapter {
 
     private int number_tabs;
 
-    public Pager2(@NonNull FragmentManager fm, int tabCount) {
+    public Pager2(@NonNull FragmentManager fm, int number_tabs) {
         super(fm);
+        this.number_tabs = number_tabs;
     }
 
     @NonNull
