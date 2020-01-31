@@ -1,6 +1,7 @@
 package id.masnadh.myapppeg.activities;
 
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
@@ -10,6 +11,7 @@ import androidx.viewpager.widget.ViewPager;
 
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
@@ -61,6 +63,7 @@ public class DataActivity extends AppCompatActivity  {
     Button btnFoto;
     ImageView fotoPeg;
     Boolean session = false;
+    public static final String TAG_USERNAME = "username";
 
     final String ambilfoto = Server.URL+"pegawai.php";
 
@@ -90,6 +93,12 @@ public class DataActivity extends AppCompatActivity  {
 //        progressDialog = new ProgressDialog(DataActivity.this);
 //        progressDialog.setMessage("Proses Pengambilan Data, Mohon Tunggu...");
 //        progressDialog.show();
+
+        sharedpreferences = getSharedPreferences(LoginActivity.my_shared_preferences, Context.MODE_PRIVATE);
+        session = sharedpreferences.getBoolean(LoginActivity.session_status, false);
+        idu = sharedpreferences.getString(TAG_ID, idu);
+        id = sharedpreferences.getString(TAG_ID, id);
+//        levelU = sharedpreferences.getString(TAG_LEVEL, null);
 
 
         final SwipeRefreshLayout pullToRefresh = findViewById(R.id.pullToRefresh);
@@ -170,9 +179,38 @@ public class DataActivity extends AppCompatActivity  {
     }
 
     public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
+        switch (item.getItemId()){
 
-        return false;
+            case R.id.logout:{
+
+//                AlertDialog.Builder alert = new AlertDialog.Builder(this);
+//                alert
+//                        .setMessage("Apa Anda  Yakin Ingin Keluar")
+//                        .setCancelable(false)
+//                        .setPositiveButton("YA", new DialogInterface.OnClickListener() {
+//                            @Override
+//                            public void onClick(DialogInterface dialog, int which) {
+//
+//                            }
+//                        })
+
+                SharedPreferences.Editor editor = sharedpreferences.edit();
+                editor.putBoolean(LoginActivity.session_status, false);
+                editor.putString(TAG_ID, null);
+                editor.putString(TAG_USERNAME, null);
+                editor.commit();
+
+                Intent intent = new Intent(DataActivity.this, LoginActivity.class);
+                finish();
+                startActivity(intent);
+
+                //Toast.makeText(this, "Logout", Toast.LENGTH_SHORT).show();
+                break;
+            }
+
+        }
+
+        return super.onOptionsItemSelected(item);
 
         //    //final String url = "http://152746201341.ip-dynamic.com/ptk/api/pegawai.php";
 //    private static final String TAG = DataActivity.class.getSimpleName();
@@ -606,12 +644,20 @@ public class DataActivity extends AppCompatActivity  {
     }
 
 
-//    @Override
-//    public void onBackPressed() {
-////        super.onBackPressed();
-//        Intent intent = new Intent(DataActivity.this, HomeFragment.class);
-//        startActivity(intent);
-//        finish();
-////        return;
-//    }
+    @Override
+    public void onBackPressed() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+        builder.setTitle("Apa Anda Ingin Keluar ?");
+        builder.setCancelable(false);
+        builder.setPositiveButton("YA", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+                DataActivity.this.finish();
+            }
+        });
+        builder.setNegativeButton("TIDAK", null);
+        builder.show();
+    }
 }

@@ -2022,6 +2022,8 @@ id detail_pend_ortu
 id detail_pend_pas
 id detail_prodi
 id detail_statusPeg
+id detail_status_jab
+id detail_status_pan
 id detail_tanggal_lahir
 id detail_tempat_lahir
 id detail_tempat_lahir_anak
@@ -2460,6 +2462,7 @@ layout activity_absen
 layout activity_admin
 layout activity_data
 layout activity_delete
+layout activity_delete_jabatan
 layout activity_hapus_pasutri
 layout activity_list
 layout activity_login
@@ -2474,6 +2477,7 @@ layout activity_riwayat_peg_peg
 layout activity_rombel
 layout activity_skp
 layout activity_tambah_anak
+layout activity_tambah_jabatan
 layout activity_tambah_pasutri
 layout activity_tambah_pendidikan
 layout activity_test
