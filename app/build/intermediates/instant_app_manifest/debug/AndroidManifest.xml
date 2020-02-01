@@ -26,6 +26,8 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="id.masnadh.myapppeg.tambahHapusData.DeletePangkatActivity" />
+        <activity android:name="id.masnadh.myapppeg.tambahHapusData.TambahPangkatActivity" />
         <activity android:name="id.masnadh.myapppeg.tambahHapusData.DeleteJabatanActivity" />
         <activity android:name="id.masnadh.myapppeg.tambahHapusData.TambahJabatanActivity" />
         <activity android:name="id.masnadh.myapppeg.activities.RiwayatPegPegActivity" />

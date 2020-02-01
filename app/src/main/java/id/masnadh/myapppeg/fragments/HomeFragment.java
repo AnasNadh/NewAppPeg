@@ -234,8 +234,8 @@ public class HomeFragment extends Fragment {
                         break;
                     case 3:
                         Intent intent3 = new Intent(HomeFragment.this.getContext(), PendidikanActivity.class);
-                        intent3.putExtra("extra_menu_pendidikan", dashboards.get(position));
-                        intent3.putExtra( TAG_ID,id);
+                        //intent3.putExtra("extra_menu_pendidikan", dashboards.get(position));
+                        intent3.putExtra( TAG_ID, id);
                         startActivity(intent3);
                         break;
                     case 4:

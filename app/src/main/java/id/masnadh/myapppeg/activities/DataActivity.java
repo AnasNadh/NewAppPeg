@@ -583,8 +583,6 @@ public class DataActivity extends AppCompatActivity  {
         progressDialog.setMessage("Proses Pengambilan Data, Mohon Tunggu...");
         progressDialog.show();
 
-
-
         StringRequest request = new StringRequest(Request.Method.GET, ambilfoto, new Response.Listener<String>(){
             @Override
             public void onResponse(String response) {
@@ -644,20 +642,20 @@ public class DataActivity extends AppCompatActivity  {
     }
 
 
-    @Override
-    public void onBackPressed() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-
-        builder.setTitle("Apa Anda Ingin Keluar ?");
-        builder.setCancelable(false);
-        builder.setPositiveButton("YA", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-
-                DataActivity.this.finish();
-            }
-        });
-        builder.setNegativeButton("TIDAK", null);
-        builder.show();
-    }
+//    @Override
+//    public void onBackPressed() {
+//        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+//
+//        builder.setTitle("Apa Anda Ingin Keluar ?");
+//        builder.setCancelable(false);
+//        builder.setPositiveButton("YA", new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialog, int which) {
+//
+//                DataActivity.this.finish();
+//            }
+//        });
+//        builder.setNegativeButton("TIDAK", null);
+//        builder.show();
+//    }
 }

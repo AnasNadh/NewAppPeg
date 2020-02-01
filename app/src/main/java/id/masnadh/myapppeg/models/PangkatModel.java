@@ -5,6 +5,18 @@ public class PangkatModel {
     String pangkat, gol, jns_pangkat, pejabat_sk, no_sk, tgl_sk, tmt_pangat, status_pan;
     int id;
 
+    public PangkatModel(String pangkat, String gol, String jns_pangkat, String pejabat_sk, String no_sk, String tgl_sk, String tmt_pangat, String status_pan, int id) {
+        this.pangkat = pangkat;
+        this.gol = gol;
+        this.jns_pangkat = jns_pangkat;
+        this.pejabat_sk = pejabat_sk;
+        this.no_sk = no_sk;
+        this.tgl_sk = tgl_sk;
+        this.tmt_pangat = tmt_pangat;
+        this.status_pan = status_pan;
+        this.id = id;
+    }
+
     public String getPangkat() {
         return pangkat;
     }
@@ -77,18 +89,7 @@ public class PangkatModel {
         this.id = id;
     }
 
-    public PangkatModel(String pangkat, String gol, String jns_pangkat, String pejabat_sk, String no_sk, String tgl_sk, String tmt_pangat, String status_pan, int id) {
-        this.pangkat = pangkat;
-        this.gol = gol;
-        this.jns_pangkat = jns_pangkat;
-        this.pejabat_sk = pejabat_sk;
-        this.no_sk = no_sk;
-        this.tgl_sk = tgl_sk;
-        this.tmt_pangat = tmt_pangat;
-        this.status_pan = status_pan;
-        this.id = id;
-
-
+    public PangkatModel() {
 
     }
 }

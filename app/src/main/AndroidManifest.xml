@@ -16,7 +16,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".tambahHapusData.DeleteJabatanActivity"></activity>
+        <activity android:name=".tambahHapusData.DeletePangkatActivity"></activity>
+        <activity android:name=".tambahHapusData.TambahPangkatActivity" />
+        <activity android:name=".tambahHapusData.DeleteJabatanActivity" />
         <activity android:name=".tambahHapusData.TambahJabatanActivity" />
         <activity android:name=".activities.RiwayatPegPegActivity" />
         <activity android:name=".activities.ProfileActivity" />

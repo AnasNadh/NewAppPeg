@@ -416,6 +416,10 @@
         "source": "C:\\Users\\SMKN PRIGEN\\.gradle\\caches\\transforms-2\\files-2.1\\f5bdf8930f5b0dade80802408310dda6\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
+        "merged": "E:\\Github\\NewAppPeg\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tambah_pangkat.xml.flat",
+        "source": "E:\\Github\\NewAppPeg\\app\\src\\main\\res\\layout\\activity_tambah_pangkat.xml"
+    },
+    {
         "merged": "E:\\Github\\NewAppPeg\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_fab_hide_motion_spec.xml.flat",
         "source": "C:\\Users\\SMKN PRIGEN\\.gradle\\caches\\transforms-2\\files-2.1\\9ee5da6fca20f6f07dce6c73fc4ca33a\\material-1.0.0\\res\\animator\\mtrl_fab_hide_motion_spec.xml"
     },
@@ -2438,6 +2442,10 @@
     {
         "merged": "E:\\Github\\NewAppPeg\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\SMKN PRIGEN\\.gradle\\caches\\transforms-2\\files-2.1\\f5bdf8930f5b0dade80802408310dda6\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "E:\\Github\\NewAppPeg\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_delete_pangkat.xml.flat",
+        "source": "E:\\Github\\NewAppPeg\\app\\src\\main\\res\\layout\\activity_delete_pangkat.xml"
     },
     {
         "merged": "E:\\Github\\NewAppPeg\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",

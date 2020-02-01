@@ -1,16 +1,18 @@
 package id.masnadh.myapppeg.models;
 
 public class JabatanModel {
-    String jabatan, eselon, tmt_jabatan, status_jab,id_jab;
+    String jabatan, eselon, tmt_jabatan, status_jab;
     int id;
 
-    public JabatanModel() {
+    public JabatanModel(String jabatan, String eselon, String tmt_jabatan, String status_jab, int id) {
         this.jabatan = jabatan;
         this.eselon = eselon;
         this.tmt_jabatan = tmt_jabatan;
         this.status_jab = status_jab;
         this.id = id;
-        this.id_jab = id_jab;
+    }
+
+    public JabatanModel() {
     }
 
     public String getJabatan() {
@@ -43,14 +45,6 @@ public class JabatanModel {
 
     public void setStatus_jab(String status_jab) {
         this.status_jab = status_jab;
-    }
-
-    public String getId_jab() {
-        return id_jab;
-    }
-
-    public void setId_jab(String id_jab) {
-        this.id_jab = id_jab;
     }
 
     public int getId() {

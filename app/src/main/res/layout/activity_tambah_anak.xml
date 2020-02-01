@@ -112,12 +112,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:orientation="horizontal">
-<!--        <Button-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_weight="1"-->
-<!--            android:text="Batal"-->
-<!--            android:id="@+id/btn_cancel_pend"/>-->
 
         <Button
             android:layout_width="match_parent"

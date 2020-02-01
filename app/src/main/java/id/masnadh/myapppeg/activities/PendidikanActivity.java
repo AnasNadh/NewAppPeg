@@ -14,6 +14,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
@@ -24,7 +25,9 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import id.masnadh.myapppeg.MainActivity;
 import id.masnadh.myapppeg.R;
@@ -102,6 +105,10 @@ public class PendidikanActivity extends AppCompatActivity {
 //        pd.setCancelable(false);
 //        pd.show();
 
+//        pd = new ProgressDialog(PendidikanActivity.this);
+//        pd.setMessage("Proses Pengambilan Data, Mohon Tunggu...");
+//        pd.show();
+
         JsonArrayRequest reqData = new JsonArrayRequest(Request.Method.GET, Server.URL_PEND,null,
                 new Response.Listener<JSONArray>() {
                     @Override
@@ -137,17 +144,25 @@ public class PendidikanActivity extends AppCompatActivity {
                         pd.cancel();
                         Log.d("volley", "error : " + error.getMessage());
                     }
-                });
+
+                }){
+            @Override
+            protected Map<String, String> getParams() throws AuthFailureError {
+                Map<String, String> parameters = new HashMap<String, String>();
+
+                return parameters;
+            }
+        };
 
         AppController.getInstance().addToRequestQueue(reqData);
     }
 
-    public void onBackPressed()
-    {
-
-        Intent intent = new Intent(PendidikanActivity.this, MainActivity.class);
-        startActivity(intent);
-        finish();
-    }
+//    public void onBackPressed()
+//    {
+//
+//        Intent intent = new Intent(PendidikanActivity.this, MainActivity.class);
+//        startActivity(intent);
+//        finish();
+//    }
 
 }

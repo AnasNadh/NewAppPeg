@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="5dp"
+    android:layout_marginBottom="8dp">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -10,7 +15,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:focusableInTouchMode="true"
             android:orientation="vertical">
 
@@ -54,7 +59,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center_vertical"
                             android:paddingLeft="10dp"
-                            android:text="Nama Pegawai"
+                            android:text="Pembina Tk.I"
                             android:textColor="@android:color/black" />
 
                     </TableRow>
@@ -81,11 +86,11 @@
 
                         <TextView
                             android:id="@+id/detail_gol"
-                            android:layout_width="wrap_content"
+                            android:layout_width="96dp"
                             android:layout_height="wrap_content"
                             android:gravity="center_vertical"
                             android:paddingLeft="10dp"
-                            android:text="Nomor Induk Pegawai"
+                            android:text="IV/a"
                             android:textColor="@android:color/black" />
 
                     </TableRow>
@@ -116,7 +121,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center_vertical"
                             android:paddingLeft="10dp"
-                            android:text="Tempat Tanggal Lahir"
+                            android:text="Fungsional"
                             android:textColor="@android:color/black" />
 
                     </TableRow>
@@ -131,7 +136,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center_vertical"
                             android:paddingLeft="5dp"
-                            android:text="Terhitung Mulsi"
+                            android:text="Terhitung Mulai"
                             android:textColor="@android:color/black"
                             android:textSize="15sp" />
 
@@ -142,12 +147,12 @@
                             android:textColor="@android:color/black" />
 
                         <TextView
-                            android:id="@+id/detail_tmt"
+                            android:id="@+id/detail_tmt_pang"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_vertical"
                             android:paddingLeft="10dp"
-                            android:text="Tempat Tanggal Lahir"
+                            android:text="2011-10-01"
                             android:textColor="@android:color/black" />
 
                     </TableRow>
@@ -178,7 +183,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center_vertical"
                             android:paddingLeft="10dp"
-                            android:text="Tempat Tanggal Lahir"
+                            android:text="Soekarwo"
                             android:textColor="@android:color/black" />
 
                     </TableRow>
@@ -209,7 +214,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center_vertical"
                             android:paddingLeft="10dp"
-                            android:text="Tempat Tanggal Lahir"
+                            android:text="823.4/1585/212/2011"
                             android:textColor="@android:color/black" />
 
                     </TableRow>
@@ -240,7 +245,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center_vertical"
                             android:paddingLeft="10dp"
-                            android:text="Tempat Tanggal Lahir"
+                            android:text="2011-06-29"
                             android:textColor="@android:color/black" />
 
                     </TableRow>
@@ -271,7 +276,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center_vertical"
                             android:paddingLeft="10dp"
-                            android:text="Tempat Tanggal Lahir"
+                            android:text="Aktif"
                             android:textColor="@android:color/black" />
 
                     </TableRow>
@@ -285,4 +290,4 @@
 
     </ScrollView>
 
-</LinearLayout>
+</androidx.cardview.widget.CardView>

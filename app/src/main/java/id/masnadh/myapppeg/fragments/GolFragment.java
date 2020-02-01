@@ -39,7 +39,9 @@ import id.masnadh.myapppeg.connections.AppController;
 import id.masnadh.myapppeg.connections.Server;
 import id.masnadh.myapppeg.models.JabatanModel;
 import id.masnadh.myapppeg.models.PasutriModel;
+import id.masnadh.myapppeg.tambahHapusData.DeleteJabatanActivity;
 import id.masnadh.myapppeg.tambahHapusData.HapusPasutriActivity;
+import id.masnadh.myapppeg.tambahHapusData.TambahJabatanActivity;
 import id.masnadh.myapppeg.tambahHapusData.TambahPasutriActivity;
 
 /**
@@ -56,9 +58,8 @@ public class GolFragment extends Fragment {
     RecyclerView.LayoutManager mManager;
     List<JabatanModel> mItems;
     ProgressDialog pd;
-    //String id,idu;
     SharedPreferences sharedpreferences;
-    public final static String TAG = DataFragment.class.getSimpleName() ;
+
     public final static String TAG_ID = "id";
     RequestQueue requestQueue;
 
@@ -86,7 +87,7 @@ public class GolFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 String Id = getActivity().getIntent().getStringExtra(TAG_ID);
-                Intent intent = new Intent(GolFragment.this.getActivity(), TambahPasutriActivity.class);
+                Intent intent = new Intent(GolFragment.this.getActivity(), TambahJabatanActivity.class);
                 intent.putExtra(TAG_ID,Id);
                 startActivity(intent);
             }
@@ -96,7 +97,7 @@ public class GolFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 String Id = getActivity().getIntent().getStringExtra(TAG_ID);
-                Intent hapus = new Intent(GolFragment.this.getActivity(), HapusPasutriActivity.class);
+                Intent hapus = new Intent(GolFragment.this.getActivity(), DeleteJabatanActivity.class);
                 hapus.putExtra(TAG_ID,Id);
                 startActivity(hapus);
             }

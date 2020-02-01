@@ -49,12 +49,13 @@ public class JabatanAdapter extends RecyclerView.Adapter<JabatanAdapter.ViewHold
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        final JabatanModel data = jabatanModels.get(position);
-  //      holder.tvIdJab.setText(data.getId_jab());
+        JabatanModel data = jabatanModels.get(position);
         holder.tvJab.setText(data.getJabatan());
         holder.tvEse.setText(data.getEselon());
         holder.tvTmt.setText(data.getTmt_jabatan());
         holder.tvStatus.setText(data.getStatus_jab());
+
+        holder.jm = data;
     }
 
     @Override
@@ -64,24 +65,22 @@ public class JabatanAdapter extends RecyclerView.Adapter<JabatanAdapter.ViewHold
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        TextView tvIdJab, tvJab, tvEse, tvTmt, tvStatus;
+        TextView tvJab, tvEse, tvTmt, tvStatus;
         JabatanModel jm;
-        CardView cardView;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
           //  tvIdJab = itemView.findViewById(R.id.detail_id_jab);
-            tvJab = itemView.findViewById(R.id.detail_jab);
-            tvEse = itemView.findViewById(R.id.detail_ese);
-            tvTmt = itemView.findViewById(R.id.detail_tmtJab);
-            tvStatus = itemView.findViewById(R.id.detail_status_jab);
+            tvJab = (TextView) itemView.findViewById(R.id.detail_jab);
+            tvEse = (TextView) itemView.findViewById(R.id.detail_ese);
+            tvTmt = (TextView) itemView.findViewById(R.id.detail_tmtJab);
+            tvStatus = (TextView) itemView.findViewById(R.id.detail_status_jab);
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     Intent update = new Intent(context, TambahJabatanActivity.class);
                     update.putExtra("update",1);
                     update.putExtra(TAG_ID, id);
-            //        update.putExtra("id_jab",jm.getId_jab());
                     update.putExtra("jabatan",jm.getJabatan());
                     update.putExtra("eselon",jm.getEselon());
                     update.putExtra("tmt_jabatan",jm.getTmt_jabatan());
